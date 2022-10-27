@@ -1,0 +1,68 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: #455967;
+  text-align: justify;
+}
+
+#contenedor{
+  padding: 0;
+  margin-top: 50px;
+}
+
+#header{
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  background: #202c38;
+  color: #fcfcfe;
+}
+
+#linea{
+  width: 500px;
+  height: 5px;
+  margin-top: 20px;
+  background: #fcfcfe;
+}
+
+#nombre{
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  margin-top: 6%;
+
+}
+
+#descripcion{
+  letter-spacing: 0.1em;
+  margin-top: 30px;
+  font-size: 2.2em;
+}
+
+#imagen{
+  margin-top: 6%;
+  margin-bottom: 10%;
+  margin-left: 4%;
+  width: 35%;
+  height: 80%;
+  border: 3px solid #fcfcfe;
+  border-radius: 50%;
+}
+
+#experiencia{
+  background: #e1e1e5;
+  padding: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+#experiencia-contenedor{
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 0fr 1fr 4fr;
+}
+
+
+#encabezado{
+  color: #455967;
+}
+
